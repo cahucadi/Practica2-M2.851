@@ -20,6 +20,11 @@ Este repositorio conteniene la documentación y desarrollo de la Práctica 2 del
 
 Descripción de las columnas del archivo insurance.csv:
 
-* COL A: 
-* COL B: 
-* COL C: 
+* Age: Edad del asegurado
+* Sex: Género
+* BMI: Indice de masa corporal
+* Children: Número de hijos 
+* Smoker: Indicador si fuma
+* Region: Región donde vive el asegurado
+* Charges: Prima del seguro
+
