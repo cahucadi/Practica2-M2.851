@@ -13,6 +13,8 @@ Este repositorio conteniene la documentación y desarrollo de la Práctica 2 del
 * PRA2_header.html : Archivo base para la generación del encabezado en el informe
 * PRA2.Rmd : Código del proyecto en lenguaje R, utilizando R Markdown
 * PRA2.html : Informe HTML del proyecto
+* PRA2 entrega.pdf : Informe en PDF del proyecto con firmas
+
 
 * insurance.csv : Archivo con los datos sin preprocesar
 * insurance_clean.csv : Archivo con los resultados del preprocesamiento
