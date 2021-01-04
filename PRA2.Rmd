@@ -3,6 +3,10 @@ title: 'PRA2 - Tipología y ciclo de vida de los datos'
 author: "Autor: Carlos Humberto Carreño Díaz Y David Barrera Mostesdeoca"
 date: "Diciembre 2020"
 output:
+  pdf_document:
+    highlight: zenburn
+    toc: yes
+  word_document: default
   html_document:
     highlight: default
     number_sections: yes
@@ -11,10 +15,6 @@ output:
     toc_depth: 2
     includes:
       in_header: PRA2_header.html
-  word_document: default
-  pdf_document:
-    highlight: zenburn
-    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -462,7 +462,7 @@ Si se separan por grupos es posible observa una mejor correlación
 ggplot(insurance, aes(x = age, y = charges, color = smoker)) +
   geom_point() +
   facet_wrap(~smoker) +
-  labs(title = "Costos médicos Medical Costs And Age By smoking") +
+  labs(title = "Costos médicos por edad y hábito de fumar") +
     theme(plot.title = element_text(hjust = 0.5))
 
 ```
